@@ -26,7 +26,32 @@ The output of your script should be similar to the results shown below.
 
 </div>
 
+# Instructions
+Simple script written using Python 3.5 to parse through a csv and calculate the average interest rate of a loan based on loan purpose.
 
-All your source code should be pushed to the personal repository which you have created in step 1, along any necessary documentation explaining how to run your script. Be sure to understand your full solution process, as we will be asking you to explain your results in the interview.
+## (Optional) Setup Virtual Env
+```
+virtualenv -p python3 <name of virtual environment>
+source <name of virtual environment>/bin/activate
+```
 
-The url to the repository should be included in your application and made public by January 1st, 2019 in order for it to be evaluated. If you have any questions regarding this challenge, please reach out to us through our Facebook page. 
+## Install packages
+* Numpy
+* Matplotlib
+* Pandas
+```
+pip install -r requirements.txt
+```
+
+## Run script
+With data.csv in the same directory, run the following command
+```
+python interest_avg.py
+```
+
+## Output
+![Graph](./readme_img/graph.png)
+
+![Table](./readme_img/table.png)
+
+
